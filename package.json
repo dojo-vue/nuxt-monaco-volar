@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@volar/monaco": "1.7.9",
+    "@vue/language-service": "1.8.2",
+    "monaco-editor-core": "0.47.0",
+    "monaco-editor-textmate": "4.0.0",
+    "monaco-textmate": "^3.0.1",
+    "monaco-volar": "^0.4.0",
+    "nuxt": "^3.10.3",
+    "onigasm": "^2.2.5",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
